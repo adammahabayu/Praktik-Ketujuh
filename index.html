@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Framework</title>
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FrameworkAdam</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jadwal">Jadwal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Hobi">Hobi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <body>
+    <div class="container">
+    <section id="home">
+        <h1></h1>
+        <h2><strong>Home</strong></h2>
+        <p>Ini adalah halaman utama dari website saya. Silakan jelajahi konten yang tersedia melalui navigasi di atas.</p>
+        <h3>Data Pribadi</h3>
+            <p>Nama     : Adam Mahabayu Muhibbulloh</p>
+            <p>NIM      : 234311002</p>
+            <p>Umur     : 20 tahun</p>
+            <p>Alamat   : Ds. Mentoro, Kec. Sumobito, Kab. Jombang</p>
+    </section>
+
+    <div style="height: 50px;"></div>
+
+    <section id="jadwal">
+        <h2><strong>Jadwal Perkuliahan</strong></h2>
+        <table>
+            <tr>
+                <th>Hari</th>
+                <th>Mata Kuliah</th>
+                <th>Waktu</th>
+                <th>Ruang</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Senin</td>
+                <td>MMPPL</td>
+                <td>09.45 - 11.25</td>
+                <td>Ruang 212</td>
+            </tr>
+            <tr>
+                <td>Pemrograman Berbasis Web 1</td>
+                <td>12.45 - 14.25</td>
+                <td>Ruang 313</td>
+            </tr>
+            <tr>
+                <td>Praktik Pemrograman Berbasis Web 1</td>
+                <td>14.25 - 19.55</td>
+                <td>Ruang 218</td>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td>Sistem Operasi</td>
+                <td>08.00 - 12.15</td>
+                <td>Ruang 216</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Rabu</td>
+                <td>Teknologi Informasi</td>
+                <td>07.30 - 08.40</td>
+                <td>Ruang 307</td>
+            </tr>
+            <tr>
+                <td>Pemrograman Berbasis Objek</td>
+                <td>10.35 - 12.15</td>
+                <td>Ruang 311</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Kamis</td>
+                <td>Pendidikan Agama</td>
+                <td>07.00 - 08.40</td>
+                <td>Ruang 311</td>
+            </tr>
+            <tr>
+                <td>Analisis dan Perancangan Perangkat Lunak</td>
+                <td>08.40 - 10.35</td>
+                <td>Ruang 311</td>
+            </tr>
+            <tr>
+                <td>Jum'at</td>
+                <td>Struktur Data</td>
+                <td>07.30 - 12.15</td>
+                <td>Ruang 301</td>
+            </tr>
+        </table>
+    </section>
+
+    <div style="height: 50px;"></div>
+
+    <section id="Hobi">
+        <h2><strong>Hobi Saya</strong></h2>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="gambar/3.png" alt="Bootstrap" width="500" height="500">
+              </a>
+            </div>
+          </nav>
+          <p>Bermain Game</p>
+    </section>
+
+    <div style="height: 50px;"></div>
+
+    <section id="About">        
+        <h2><strong>About</strong></h2>
+        <div class="card" style="width: 18rem;">
+            <img src="gambar/1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Bersepeda adalah sebuah kegiatan rekreasi atau olahraga, serta merupakan salah satu moda transportasi darat yang menggunakan sepeda. Sepeda pertama kali diperkenalkan pada abad ke-19 Masehi.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>    
+    </section>            
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('searchInput').addEventListener('input', function () {
+                var searchText = this.value.toLowerCase();
+                var allSections = document.querySelectorAll('section');
+    
+                allSections.forEach(function (section) {
+                    var sectionId = section.getAttribute('id');
+                    var sectionContent = section.textContent.toLowerCase();
+    
+                    if (sectionContent.includes(searchText)) {
+                        section.style.display = 'block';
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
